@@ -1,0 +1,164 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2245239600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the demo store url \"http://services.smartbear.com/samples/TestComplete12/smartstore/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://services.smartbear.com/samples/TestComplete12/smartstore/",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.i_navigate_to_the_demo_store_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1682825200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "navigate to contactus page",
+            "match": {
+              "location": "Steps.navigate_to_contactus_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14365451300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "",
+        "description": "Test the form for submission.",
+        "id": "test-the-contact-form-in-web-application.;",
+        "after": [
+          {
+            "result": {
+              "duration": 1854682500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1211795900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter a \"Superhero\" Name.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Superhero",
+                  "offset": 11
+                }
+              ],
+              "location": "Steps.i_enter_a_Name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1287086700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter a \"u@me.com\" EmailId.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "u@me.com",
+                  "offset": 11
+                }
+              ],
+              "location": "Steps.i_enter_a_EmailId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2363607900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter enquiry",
+            "match": {
+              "location": "Steps.i_enter_enquiry(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Enquiry line 1",
+                  "Enquiry line 2"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1522239800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on Submit Button",
+            "match": {
+              "location": "Steps.i_click_on_Submit_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1081949000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should be taken to the Succesful Submission Page.",
+            "match": {
+              "location": "Steps.i_should_be_taken_to_the_Succesful_Submission_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test the contact form in web application.",
+    "description": "",
+    "id": "test-the-contact-form-in-web-application.",
+    "keyword": "Feature",
+    "uri": "reqs.feature"
+  }
+]
